@@ -3,7 +3,7 @@
 - clap: uses linear projection to fuse audio and text latent space
 - clip: very simple supervised learning based method with presumably large storage needed
 - flamingo: transformer type architecture with gated cross attention to incorpate knowledge from other latent space
-- imgebind: again contrastive learning to ...?
+- imgebind: preliminary contrastive learning can be used to align a pair of modalities, then using InfoNCE loss to bind paris of modalities and generates new pairs of modalities...?
 - llava: completely transformer based, more like giving context to the language model to provide accurate response, representation is simple encoding and projection
 - multimodal_collapse: theoretical establishment that essentially states "modality collapse happens when noisy features from one modality are entangled, via a shared set of neurons in the fusion head, with pre- dictive features from another, effectively mask- ing out positive contributions from the predic- tive features of the former modality and lead- ing to its collapse"
 - palm-e: Not very clear architecture...
